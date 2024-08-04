@@ -1,0 +1,131 @@
+
+
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.tittle{
+  font-size: 25px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  color: white;
+}
+
+.segment-button{
+  font-family: "Poppins", sans-serif;
+  background-color: darkcyan;
+  color: white;
+  width: 110px;
+  height: 35px ;
+  border: none; 
+  cursor: pointer;
+  transition: background-color 0.3s;
+  }
+.segment-button:hover,
+.segment-button:focus {
+  background-color: darkcyan; 
+  outline: none; 
+}
+
+.segment-button:active {
+  background-color: darkcyan; 
+  box-shadow: inset 0px 0px 5px rgba(0, 0, 0, 0.2); 
+}
+
+.custom-drawer .ant-drawer-header {
+  background-color: darkcyan;
+  color: white;
+}
+
+.custom-drawer .ant-drawer-title {
+  color: white;
+}
+
+.content-text{
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  color: black;
+
+}
+
+
+/* Green Round Button */
+.round-button-green {
+  background-color: green;
+  color: white;
+  border: none; 
+  border-radius: 50%;
+  width: 12px; 
+  height: 12px; 
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  font-size: 16px;
+  cursor: pointer; 
+  transition: background-color 0.3s; 
+  margin-top: 5px;
+}
+
+.round-button-green:hover {
+  background-color: darkgreen; 
+}
+
+/* Red Round Button */
+.round-button-red {
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 50%; 
+  width: 12px; 
+  height: 12px; 
+  display: flex; 
+  cursor: pointer; 
+  transition: background-color 0.3s; 
+  margin-top: 5px;
+}
+
+.round-button-red:hover {
+  background-color: darkred;
+}
+.round-but-content{
+  display: flex;
+  justify-content: space-evenly;
+  font-family: "Poppins", sans-serif;
+}
+.container-row{
+  display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+
+.add-but{
+  font-size: 20px;
+  font-weight: 500;
+  width: 100%;
+  margin-left: -130px;
+  text-decoration: underline;
+
+}
+
+.schema-list{
+  display: inline-block;
+  line-height: 4;
+}
+
+.sel-item{
+  width: 350px;
+  height: 35px;
+  display: inline-block;
+ line-height: 4;
+}
+
